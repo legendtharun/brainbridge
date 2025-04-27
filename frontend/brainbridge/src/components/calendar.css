@@ -1,0 +1,46 @@
+:root {
+    --primary-color: #634AFF;
+    --secondary-color: rgba(99, 74, 255, 0.1);
+  }
+  
+  .calendar-container {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    margin: 16px;
+  }
+  
+  .fc {
+    --fc-event-bg-color: var(--primary-color);
+    --fc-event-border-color: var(--primary-color);
+    --fc-event-text-color: white;
+    --fc-today-bg-color: var(--secondary-color);
+    --fc-button-bg-color: var(--primary-color);
+    --fc-button-border-color: var(--primary-color);
+    --fc-button-text-color: white;
+    --fc-button-hover-bg-color: #4F3BCC;
+    --fc-button-active-bg-color: #4F3BCC;
+  }
+  
+  .fc .fc-daygrid-day-number,
+  .fc .fc-col-header-cell-cushion {
+    color: var(--primary-color);
+  }
+  
+  .fc .fc-timegrid-slot-label {
+    color: var(--primary-color);
+  }
+  
+  .fc .fc-toolbar-title {
+    color: var(--primary-color);
+    font-weight: bold;
+  }
+  
+  .bg-primary {
+    background-color: var(--primary-color);
+  }
+  
+  .hover\:bg-primary-dark:hover {
+    background-color: #4F3BCC;
+  }
