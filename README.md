@@ -128,7 +128,7 @@ nodejs,npm,expressjs,tailwindcss,sequelise,mysql,create-react-app,framer-motion 
 #clone repo
 git clone https://github.com/legendtharun/brainbridge
 #get into the frontend app
-cd /BrainBridge/frontend/brainbridge/
+cd /brainbridge/frontend/brainbridge/
 #install dependencies
 npm i
 #start frontend app
@@ -136,7 +136,7 @@ npm start
 
 #Open another terminal
 #get into the backend app
-cd /BrainBridge/backend/api/
+cd /brainbridge/backend/api/
 #install dependencies
 npm i
 #start backend app
